@@ -13,7 +13,7 @@
 }
 
 .nav-conainter > li{
-	margin: 2vh 0vh 2vh 0vh;
+	margin: 3vh 0vh 3vh 0vh;
 }
 
 li:first-child {
@@ -24,8 +24,21 @@ li:last-child {
 	margin-bottom: 0vh;
 }
 
+li > a {
+	text-decoration: none;
+	color: gray;
+}
+
+li > a:hover {
+	color: white;
+}
+
+.active-link {
+	color: white;
+}
+
 .nav-divider {
-	border-right: 1px solid black;
+	border-right: 2px solid $primary-text-color;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-left: 2vw;
