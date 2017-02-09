@@ -46,5 +46,18 @@ li > a:hover {
 }
 
 .copy-container {
-	
+	display: flex;
+	align-items: center;
+}
+
+#about-copy {
+	display: none;
+}
+
+#projects-copy {
+	display: none;
+}
+
+#links-copy {
+	display: none;
 }

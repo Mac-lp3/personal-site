@@ -4,10 +4,10 @@ layout: default
 
 <div class="content-container">
 	<ul class="nav-conainter">
-		<li><a href="#" id="homeLink" onclick="selectNav('homeLink');">Home</a></li>
-		<li><a href="#" id="aboutLink" onclick="selectNav('aboutLink');">About</a></li>
-		<li><a href="#" id="projectsLink" onclick="selectNav('projectsLink');">Projects</a></li>
-		<li><a href="#" id="linksLink" onclick="selectNav('linksLink');">Links</a></li>
+		<li><a href="#" id="home-link" onclick="selectNav('home');">Home</a></li>
+		<li><a href="#" id="about-link" onclick="selectNav('about');">About</a></li>
+		<li><a href="#" id="projects-link" onclick="selectNav('projects');">Projects</a></li>
+		<li><a href="#" id="links-link" onclick="selectNav('links');">Links</a></li>
 	</ul>
 
 	<div class="nav-divider">
@@ -15,7 +15,23 @@ layout: default
 	</div>
 
 	<div class="copy-container">
-		{{ content }}
+		<div class="copy-wrapper">
+			<div id="home-copy">
+				{{ content }}
+			</div>
+			<div id="about-copy">
+				{% capture about %}{% include about.md %}{% endcapture %}
+				{{ about | markdownify }}
+			</div>
+			<div id="projects-copy">
+				{% capture projects %}{% include projects.md %}{% endcapture %}
+				{{ projects | markdownify }}
+			</div>
+			<div id="links-copy">
+				{% capture links %}{% include links.md %}{% endcapture %}
+				{{ links | markdownify }}
+			</div>
+		</div>
 	</div>
 </div>
 
