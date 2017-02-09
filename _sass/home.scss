@@ -1,0 +1,21 @@
+.content-container {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.nav-conainter {
+	margin: 0;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.nav-divider {
+	border-right: 1px solid black;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.copy-container {
+	
+}
