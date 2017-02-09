@@ -5,15 +5,31 @@
 }
 
 .nav-conainter {
+	font-size: 5vh;
+	list-style-type: none;
 	margin: 0;
 	flex-direction: column;
 	justify-content: space-between;
+}
+
+.nav-conainter > li{
+	margin: 2vh 0vh 2vh 0vh;
+}
+
+li:first-child {
+	margin-top: 0vh;
+}
+
+li:last-child {
+	margin-bottom: 0vh;
 }
 
 .nav-divider {
 	border-right: 1px solid black;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	margin-left: 2vw;
+	margin-right: 2vw;
 }
 
 .copy-container {
