@@ -62,3 +62,13 @@ li > a:hover {
 #links-copy {
 	display: none;
 }
+
+@keyframes line-movement {
+	0% {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	50%{
+		
+	}
+}
