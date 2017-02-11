@@ -140,4 +140,4 @@ function animate(opts) {
 /*
  * On ready functions
  */
- document.getElementById('homeLink').className = activeLink;
+ document.getElementById('home-link').className = activeLink;
