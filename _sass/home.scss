@@ -2,6 +2,12 @@
 	display: flex;
 	justify-content: center;
 	align-items: stretch;
+	min-width: 45vw;
+    max-width: 45vw;
+}
+
+.nav-wrapper {
+	
 }
 
 .nav-conainter {
@@ -48,7 +54,8 @@ li > a:hover {
 .copy-container {
 	display: flex;
 	align-items: center;
-	min-width: 25vw;
+	min-width: 35vw;
+	max-width: 35vw;
 }
 
 #about-copy {
@@ -61,14 +68,4 @@ li > a:hover {
 
 #links-copy {
 	display: none;
-}
-
-@keyframes line-movement {
-	0% {
-		margin-top: 0px;
-		margin-bottom: 0px;
-	}
-	50%{
-		
-	}
 }
