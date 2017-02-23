@@ -6,6 +6,9 @@ const copyList = document.querySelectorAll('.copy-wrapper > div');
 const contentContainer = document.querySelectorAll('.content-container')[0];
 const navDivider = document.querySelectorAll('.nav-divider')[0];
 const copyWrapper = document.querySelectorAll('.copy-wrapper')[0];
+const mainWrapper = document.querySelectorAll(".wrapper")[0];
+
+let activeCopy = 'home';
 
 /*
  * Removes active styling from other links and applies it to one that has been clicked.
@@ -24,12 +27,21 @@ function selectNav(elementId) {
 
 };
 
+/*
+ * Function to change the copy text for the appropriate page
+ */
 function changeCopy(copyName){
 	
 	const to = 100;
 	let current = 0;
 
 	copyWrapper.style.display = 'block';
+
+	// fade background color
+	mainWrapper.className = mainWrapper.className.replace(activeCopy, copyName);
+
+	// set the new active link name
+	activeCopy = copyName;
 
 	animate({
     	delay: 10,
@@ -39,28 +51,31 @@ function changeCopy(copyName){
 		},
     	step: function(delta) {
     		
+    		// move to the left and fade out
     		current = -(to * delta);
       		copyWrapper.style.transform = 'translate(' + current + 'px , 0px)';
       		copyWrapper.style.opacity = 1 - delta;
 
+      		// when the fade out/left finished...
       		if (delta === 1) {
       			
-      			// Hide each copy section
+      			// hide each copy section
       			for (let i = 0; i < copyList.length; ++i) {
 					copyList[i].style.display = 'none';
 				}
 
-				// Display the target section
+				// display the target copy section
 				document.getElementById(copyName + '-copy').style.display = 'block';
 
       			animate({
 			    	delay: 10,
-			    	duration: 500, // in ms
+			    	duration: 450, // in ms
 			    	delta: function quad(progress) {
 			  			return 1 - (1 - Math.pow(progress, 4));
 					},
 			    	step: function(delta) {
 			    		
+			    		// move to the right and fade in
 			    		current = -(to - (to * delta));
 			      		copyWrapper.style.transform = 'translate(' + current + 'px , 0px)';
 			      		copyWrapper.style.opacity = 1 - (1 - delta);
@@ -71,6 +86,9 @@ function changeCopy(copyName){
   	});
 };
 
+/*
+ * Function that shrinks/grows the divider line between navigation
+ */
 function fadeDivider() {
 
 	let style = navDivider.currentStyle || window.getComputedStyle(navDivider);
@@ -99,7 +117,7 @@ function fadeDivider() {
 				// Open amination
 				animate({
 			    	delay: 10,
-			    	duration: 500, // in ms
+			    	duration: 450, // in ms
 			    	delta: function quad(progress) {
 			  			return 1 - (1 - Math.pow(progress, 4));
 					},
@@ -115,6 +133,9 @@ function fadeDivider() {
   	}); 
 };
 
+/*
+ * General animate function for all actions.
+ */
 function animate(opts) {
 
   	const start = new Date;
