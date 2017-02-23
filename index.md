@@ -5,6 +5,8 @@
 layout: home
 ---
 
-lol. kjasdlkj aslkdjasdkflj sdfklaj dsaf ae
+# Michael Calvo
 
-asdfkjdsafkjh asdflkhjsd
+You've reached my home page. 
+
+This is my little corner of the web where you can learn a little more about me.
