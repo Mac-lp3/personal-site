@@ -3,12 +3,9 @@
 const activeLink = 'active-link';
 const linkList = document.querySelectorAll('.nav-conainter > li > a');
 const copyList = document.querySelectorAll('.copy-wrapper > div');
-const contentContainer = document.querySelectorAll('.content-container')[0];
 const navDivider = document.querySelectorAll('.nav-divider')[0];
 const copyWrapper = document.querySelectorAll('.copy-wrapper')[0];
 const mainWrapper = document.querySelectorAll(".wrapper")[0];
-
-let activeCopy = 'home';
 
 function selectNav(elementId) {
 
