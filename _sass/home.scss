@@ -58,10 +58,27 @@ a:hover {
 	max-width: 35vw;
 }
 
+.copy-wrapper {
+	animation: slideFrames 900ms cubic-bezier(1, 0.41, 0, 0.45) 0s 1;
+}
+
+@keyframes slideFrames {
+	0% {
+		transform: translate(0vw);
+		opacity: 1;
+	} 35%, 65% {
+		transform: translate(-15vw);
+		opacity: 0;
+	} 100% {
+		transform: translate(0vw);
+		opacity: 1;
+	}
+}
+
 .copy-wrapper div h1, h2 {
 	font-size: 5vh;
 	font-weight: normal;
-	margin: 0px;
+	margin: 0pxx;
 }
 
 #about-copy {
