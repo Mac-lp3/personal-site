@@ -13,13 +13,14 @@ layout: default
 	</div>
 
 	<div class="nav-divider">
-		
+
 	</div>
 
 	<div class="copy-container">
 		<div class="copy-wrapper">
 			<div id="home-copy">
-				{{ content }}
+				{% capture home %}{% include home.md %}{% endcapture %}
+				{{ home | markdownify }}
 			</div>
 			<div id="about-copy">
 				{% capture about %}{% include about.md %}{% endcapture %}
@@ -36,4 +37,3 @@ layout: default
 		</div>
 	</div>
 </div>
-
