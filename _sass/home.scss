@@ -51,6 +51,36 @@ a:hover {
 	margin-right: 2vw;
 }
 
+.close-divider {
+	animation: closeDivider 450ms ease forwards;
+}
+
+.open-divider {
+	animation: openDivider 450ms ease forwards;
+}
+
+@keyframes closeDivider {
+
+	0%, 25% {
+		margin-top: 0vh;
+		margin-bottom: 0vh;
+	} 100% {
+		margin-top: 20vh;
+		margin-bottom: 20vh;
+	}
+}
+
+@keyframes openDivider {
+
+ 0% {
+	 margin-top: 20vh;
+	 margin-bottom: 20vh;
+ } 75%, 100% {
+	 margin-top: 0vh;
+	 margin-bottom: 0vh;
+ }
+}
+
 .copy-container {
 	display: flex;
 	align-items: center;
@@ -58,15 +88,26 @@ a:hover {
 	max-width: 35vw;
 }
 
-.copy-wrapper {
-	animation: slideFrames 900ms cubic-bezier(1, 0.41, 0, 0.45) 0s 1;
+.slide-element-out {
+	animation: slideOutFrames 450ms cubic-bezier(0.56, 0.01, 0.9, 0.6) 0s forwards;
 }
 
-@keyframes slideFrames {
+.slide-element-in {
+	animation: slideInFrames 450ms cubic-bezier(0.56, 0.01, 0.9, 0.6) 0s forwards;
+}
+
+@keyframes slideOutFrames {
 	0% {
 		transform: translate(0vw);
 		opacity: 1;
-	} 35%, 65% {
+	} 75%, 100% {
+		transform: translate(-15vw);
+		opacity: 0;
+	}
+}
+
+@keyframes slideInFrames {
+	0%, 25% {
 		transform: translate(-15vw);
 		opacity: 0;
 	} 100% {
@@ -81,14 +122,6 @@ a:hover {
 	margin: 0pxx;
 }
 
-#about-copy {
-	display: none;
-}
-
-#projects-copy {
-	display: none;
-}
-
-#links-copy {
+.hidden-copy {
 	display: none;
 }

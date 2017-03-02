@@ -18,19 +18,19 @@ layout: default
 
 	<div class="copy-container">
 		<div class="copy-wrapper">
-			<div id="home-copy">
+			<div id ="home-copy">
 				{% capture home %}{% include home.md %}{% endcapture %}
 				{{ home | markdownify }}
 			</div>
-			<div id="about-copy">
+			<div id= "about-copy" class="hidden-copy">
 				{% capture about %}{% include about.md %}{% endcapture %}
 				{{ about | markdownify }}
 			</div>
-			<div id="projects-copy">
+			<div id= "projects-copy" class="hidden-copy">
 				{% capture projects %}{% include projects.md %}{% endcapture %}
 				{{ projects | markdownify }}
 			</div>
-			<div id="links-copy">
+			<div id= "links-copy" class="hidden-copy">
 				{% capture links %}{% include links.md %}{% endcapture %}
 				{{ links | markdownify }}
 			</div>
