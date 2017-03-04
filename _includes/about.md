@@ -1,4 +1,4 @@
-## Who is Michael Calvo
+## About Me
 
 Michael graduated from Eastern Connecticut State University in 2012 with bachelor
 degrees in Mathematics and Computer Science.
