@@ -1,4 +1,4 @@
-## Michael Calvo
+# Michael Calvo
 
 Hi, and welcome to my home page.
 
