@@ -11,7 +11,7 @@
 }
 
 .nav-conainter {
-	font-size: 5vh;
+	font-size: 6vh;
 	list-style-type: none;
 	margin: 0;
 	flex-direction: column;
@@ -117,9 +117,11 @@ a:hover {
 }
 
 .copy-wrapper div h1, h2 {
-	font-size: 5vh;
-	font-weight: normal;
-	margin: 0pxx;
+	color: $header-font-color;
+	font-size: 6vh;
+	font-weight: lighter;
+	margin: 0px;
+	border-bottom: 1px solid white;
 }
 
 .hidden-copy {
