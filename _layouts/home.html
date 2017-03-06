@@ -24,6 +24,7 @@ layout: default
 			</div>
 			<div id= "about-copy" class="hidden-copy">
 				{% capture about %}{% include about.md %}{% endcapture %}
+				<div class="portrait-container"></div>
 				{{ about | markdownify }}
 			</div>
 			<div id= "projects-copy" class="hidden-copy">
