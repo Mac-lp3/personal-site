@@ -1,6 +1,7 @@
 'use strict';
 
 const activeLink = 'active-link';
+const hiddenCopy = 'hidden-copy';
 const linkList = document.querySelectorAll('.nav-conainter > li > a');
 const copyList = document.querySelectorAll('.copy-wrapper > div');
 const navDivider = document.querySelectorAll('.nav-divider')[0];
@@ -25,11 +26,11 @@ function selectNav(elementId) {
 
 				// hide each copy-text container
 				for (let i = 0; i < copyList.length; ++i) {
-					copyList[i].className = 'hidden-copy';
+					copyList[i].className = hiddenCopy;
 				}
 
 				// show the selected container
-				document.getElementById(elementId + '-copy').className = '';
+				document.getElementById(elementId + '-copy').className = elementId + '-copy';
 
 				// apply slide-in animation & open divider
 				copyWrapper.className = 'copy-wrapper slide-element-in';
