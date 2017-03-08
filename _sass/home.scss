@@ -137,6 +137,17 @@ a:hover {
   flex-wrap: wrap;
 }
 
+.about-copy h2{
+	order: 0;
+	flex-grow: 2;
+	align-self: center;
+}
+
+.about-copy p{
+	margin-top: 5px;
+	order: 2;
+}
+
 .home-copy {
 
 }
@@ -146,12 +157,13 @@ a:hover {
 }
 
 .links-copy {
-	
+
 }
 
 .portrait-container {
-	width: 6vw;
-	height: 6vw;
+	order: 1;
+	width: 8vw;
+	height: 8vw;
 	background: white;
 	border-radius: 50px;
 }
