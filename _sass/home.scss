@@ -161,9 +161,10 @@ a:hover {
 }
 
 .portrait-container {
+	background: url('../assets/headShot.jpg') no-repeat center;
+	background-size: cover;
 	order: 1;
-	width: 8vw;
-	height: 8vw;
-	background: white;
-	border-radius: 50px;
+	width: 10vw;
+	height: 10vw;
+	border-radius: 10vh;
 }
