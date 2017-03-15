@@ -61,7 +61,7 @@ a:hover {
 
 @keyframes closeDivider {
 
-	0%, 25% {
+	0% {
 		margin-top: 0vh;
 		margin-bottom: 0vh;
 	} 100% {
@@ -75,7 +75,7 @@ a:hover {
  0% {
 	 margin-top: 20vh;
 	 margin-bottom: 20vh;
- } 75%, 100% {
+ } 100% {
 	 margin-top: 0vh;
 	 margin-bottom: 0vh;
  }
@@ -100,14 +100,14 @@ a:hover {
 	0% {
 		transform: translate(0vw);
 		opacity: 1;
-	} 75%, 100% {
+	} 100% {
 		transform: translate(-15vw);
 		opacity: 0;
 	}
 }
 
 @keyframes slideInFrames {
-	0%, 25% {
+	0%{
 		transform: translate(-15vw);
 		opacity: 0;
 	} 100% {
@@ -137,13 +137,13 @@ a:hover {
   flex-wrap: wrap;
 }
 
-.about-copy h2{
+.about-copy h2 {
 	order: 0;
 	flex-grow: 2;
 	align-self: center;
 }
 
-.about-copy p{
+.about-copy p {
 	margin-top: 5px;
 	order: 2;
 }
