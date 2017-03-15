@@ -36,7 +36,7 @@ function selectNav(elementId) {
 				copyWrapper.className = 'copy-wrapper slide-element-in';
 				navDivider.className = 'nav-divider open-divider';
 
-		}, 400);
+		}, 450);
 };
 
 /*
