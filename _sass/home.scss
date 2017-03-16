@@ -167,13 +167,29 @@ a:hover {
 }
 
 .link-card {
-	background: url('../assets/github-6-256.ico') no-repeat center;
-	background-size: 15vw 28vh;
 	height: 28vh;
 	width: 17vw;
 	/*border-style: solid;
 	border-width: 1px;
 	border-color: black;*/
+}
+
+.link-card:nth-child(1) {
+	background: url('../assets/github-6-256.ico') no-repeat center;
+	background-size: 14vw 25vh;
+}
+
+.link-card:nth-child(2) {
+	background: url('../assets/stackoverflow-256.ico') no-repeat center;
+	background-size: 14vw 25vh;
+}
+
+.link-card:nth-child(3) {
+
+}
+
+.link-card:nth-child(4) {
+
 }
 
 .portrait-container {
