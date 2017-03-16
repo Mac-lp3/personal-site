@@ -161,6 +161,21 @@ a:hover {
 
 }
 
+.link-card-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.link-card {
+	background: url('../assets/github-6-256.ico') no-repeat center;
+	background-size: 15vw 28vh;
+	height: 28vh;
+	width: 17vw;
+	/*border-style: solid;
+	border-width: 1px;
+	border-color: black;*/
+}
+
 .portrait-container {
 	background: url('../assets/headShot.jpg') no-repeat center;
 	shape-outside: circle();
