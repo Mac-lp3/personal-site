@@ -164,13 +164,13 @@ a:hover {
 
 .link-card-container {
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 
 .link-card {
 	height: 28vh;
 	width: 17vw;
-	transition: filter 500ms;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -182,16 +182,6 @@ a:hover {
 .card-text {
 	color: black;
 	font-weight: bold;
-	opacity: 0;
-	transition: opacity 500ms;
-}
-
-.link-card:hover {
-	filter: blur(2px);
-}
-
-.link-card:hover .card-text{
-	opacity: 1;
 }
 
 .link-card:nth-child(1) {
