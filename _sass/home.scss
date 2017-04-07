@@ -153,8 +153,8 @@ a:hover {
 .home-copy {
 
 }
-
 .projects-copy {
+
 
 }
 
@@ -179,6 +179,14 @@ a:hover {
 	border-color: black;*/
 }
 
+@media (max-width: 1079px) {
+  .link-card {
+	height: 100px;
+  	width: 100px;
+	background-size: 14vw 25vh;
+  }
+}
+
 .card-text {
 	align-self: flex-end;
 	color: black;
@@ -187,17 +195,28 @@ a:hover {
 }
 
 .link-card:nth-child(1) {
-	background: url('../assets/github-6-256.ico') no-repeat center;
-	background-size: 14vw 25vh;
+	background-image: url(../assets/github-6-256.ico);
+	background-position-x: center;
+	background-position-y: center;
+	background-repeat-x: no-repeat;
+	background-repeat-y: no-repeat;
 }
 
 .link-card:nth-child(2) {
-	background: url('../assets/stackoverflow-256.ico') no-repeat center;
+	background-image: url('../assets/stackoverflow-256.ico');
+	background-position-x: center;
+	background-position-y: center;
+	background-repeat-x: no-repeat;
+	background-repeat-y: no-repeat;
 	background-size: 14vw 25vh;
 }
 
 .link-card:nth-child(3) {
-	background: url('../assets/stackoverflow-256.ico') no-repeat center;
+	background-image: url('../assets/stackoverflow-256.ico');
+	background-position-x: center;
+	background-position-y: center;
+	background-repeat-x: no-repeat;
+	background-repeat-y: no-repeat;
 	background-size: 14vw 25vh;
 }
 
