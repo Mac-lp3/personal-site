@@ -3,7 +3,7 @@
 	justify-content: center;
 	align-items: stretch;
 	min-width: 45vw;
-  max-width: 45vw;
+  	max-width: 45vw;
 }
 
 .nav-wrapper {
@@ -11,7 +11,7 @@
 }
 
 .nav-conainter {
-	font-size: 6vh;
+	font-size: 4vw;
 	list-style-type: none;
 	margin: 0;
 	flex-direction: column;
@@ -60,7 +60,6 @@ a:hover {
 }
 
 @keyframes closeDivider {
-
 	0% {
 		margin-top: 0vh;
 		margin-bottom: 0vh;
@@ -71,7 +70,6 @@ a:hover {
 }
 
 @keyframes openDivider {
-
  0% {
 	 margin-top: 30vh;
 	 margin-bottom: 30vh;
@@ -155,7 +153,6 @@ a:hover {
 }
 .projects-copy {
 
-
 }
 
 .links-copy {
@@ -169,21 +166,18 @@ a:hover {
 }
 
 .link-card {
-	height: 189px;
-	width: 189px;
+	background-size: 85% 85%;
+	height: 11vw;
+	width: 11vw;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	/*border-style: solid;
-	border-width: 1px;
-	border-color: black;*/
 }
 
-@media (max-width: 1079px) {
+@media (max-width: 710px) {
   .link-card {
-	height: 100px;
-  	width: 100px;
-	background-size: 14vw 25vh;
+	height: 15vw;
+  	width: 15vw;
   }
 }
 
@@ -208,7 +202,6 @@ a:hover {
 	background-position-y: center;
 	background-repeat-x: no-repeat;
 	background-repeat-y: no-repeat;
-	background-size: 14vw 25vh;
 }
 
 .link-card:nth-child(3) {
@@ -217,7 +210,6 @@ a:hover {
 	background-position-y: center;
 	background-repeat-x: no-repeat;
 	background-repeat-y: no-repeat;
-	background-size: 14vw 25vh;
 }
 
 .portrait-container {
