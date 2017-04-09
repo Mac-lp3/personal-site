@@ -5,7 +5,8 @@
 .nav-conainter {
 	font-size: 4vw;
 	list-style-type: none;
-	margin: 0;
+	padding: 0px;
+	margin: 0px;
 	flex-direction: column;
 	justify-content: space-between;
 }
@@ -47,8 +48,8 @@ a:hover {
 	align-self: center;
 	display: flex;
 	align-items: center;
-	min-width: 35vw;
-	max-width: 35vw;
+	max-width: 38vw;
+	min-width: 38vw;
 }
 
 .slide-element-out {
@@ -84,17 +85,12 @@ a:hover {
 	overflow-y: auto;
 }
 
-.copy-wrapper div h1, h2 {
+.copy-wrapper div h2 {
 	color: $header-font-color;
 	font-size: 5vw;
 	font-weight: lighter;
 	margin: 0px;
 	border-bottom: 1px solid white;
-}
-
-.copy-wrapper div h1 {
-	border: 0px;
-	font-size: 6.5vw;
 }
 
 .hidden-copy {
@@ -193,7 +189,23 @@ a:hover {
 	border-radius: 50%;
 }
 
-@media (min-width: 400px) {
+@media (max-width: 700px) and (min-width: 426px){
+	.copy-container {
+		min-width: 65vw;
+		max-width: 65vw;
+	}
+}
+
+h1 {
+	border: 0px;
+	font-size: 80px;
+	color: $header-font-color;
+	font-weight: lighter;
+	margin: 0px;
+}
+
+// Tablet+
+@media (min-width: 425px) {
 	.nav-divider {
 		border-right: 2px solid $primary-text-color;
 		margin-top: $nav-divider-start-margin;
@@ -221,7 +233,11 @@ a:hover {
 	}
 }
 
-@media (max-width: 400px) {
+// Mobile
+@media (max-width: 425px) {
+	h1 {
+		font-size: 75px;
+	}
 	li {
 		display: inline;
 	}
