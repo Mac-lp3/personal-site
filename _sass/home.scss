@@ -3,7 +3,7 @@
 }
 
 .nav-conainter {
-	font-size: 4vw;
+	font-size: 45px;
 	list-style-type: none;
 	padding: 0px;
 	margin: 0px;
@@ -48,8 +48,8 @@ a:hover {
 	align-self: center;
 	display: flex;
 	align-items: center;
-	max-width: 38vw;
-	min-width: 38vw;
+	max-width: 44vw;
+	min-width: 44vw;
 }
 
 .slide-element-out {
@@ -85,14 +85,6 @@ a:hover {
 	overflow-y: auto;
 }
 
-.copy-wrapper div h2 {
-	color: $header-font-color;
-	font-size: 5vw;
-	font-weight: lighter;
-	margin: 0px;
-	border-bottom: 1px solid white;
-}
-
 .hidden-copy {
 	display: none;
 }
@@ -102,27 +94,13 @@ a:hover {
 }
 
 .about-copy h2 {
-	font-size: 5vw;
-	width: 23vw;
+	width: 240px;
 	order: 0;
-	flex-grow: 2;
-	align-self: center;
 }
 
 .about-copy p {
 	margin-top: 16px;
 	order: 2;
-}
-
-.home-copy {
-
-}
-.projects-copy {
-
-}
-
-.links-copy {
-
 }
 
 .link-card-container {
@@ -184,16 +162,9 @@ a:hover {
 	float: right;
 	background-size: cover;
 	order: 1;
-	width: 10vw;
-	height: 10vw;
+	width: 120px;
+	height: 120px;
 	border-radius: 50%;
-}
-
-@media (max-width: 700px) and (min-width: 426px){
-	.copy-container {
-		min-width: 65vw;
-		max-width: 65vw;
-	}
 }
 
 h1 {
@@ -202,6 +173,31 @@ h1 {
 	color: $header-font-color;
 	font-weight: lighter;
 	margin: 0px;
+}
+
+h2 {
+	color: $header-font-color;
+	font-size: 50px;
+	font-weight: lighter;
+	margin: 0px;
+	border-bottom: 1px solid white;
+}
+
+// Small desktop
+@media (max-width: 840px) and (min-width: 426px) {
+	h2 {
+		font-size: 36px;
+	}
+	.about-copy h2 {
+		width: 170px;
+	}
+	.copy-container {
+		min-width: 65vw;
+		max-width: 65vw;
+	}
+	.nav-conainter {
+		font-size: 35px;
+	}
 }
 
 // Tablet+
@@ -235,6 +231,15 @@ h1 {
 
 // Mobile
 @media (max-width: 425px) {
+	.about-copy h2 {
+		display: none;
+	}
+	.portrait-container {
+		margin: auto;
+		float: none;
+		width: 120px;
+		height: 120px;
+	}
 	h1 {
 		font-size: 75px;
 	}
@@ -251,13 +256,14 @@ h1 {
 	.nav-conainter {
 		padding: 0px;
 		margin-top: 2vh;
-		font-size: 20px
+		font-size: 23px
 	}
 	.copy-container {
 		min-width: none;
 		max-width: none;
 	}
 	.copy-wrapper {
+		text-align: center;
 		max-height: none;
 		overflow-y: auto;
 	}
