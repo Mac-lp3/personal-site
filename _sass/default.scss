@@ -13,7 +13,16 @@ body {
 	min-width: 100vw;
 	align-items: center;
 	justify-content: center;
+	align-items: stretch;
 	transition: background-color 1.25s;
+}
+
+@media (max-width: 400px) {
+	.wrapper {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
 }
 
 .wrapper-home {
