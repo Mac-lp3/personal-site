@@ -103,6 +103,14 @@ a:hover {
 	order: 2;
 }
 
+.projects-copy h2{
+	width: 200px;
+}
+
+.links-copy h2 {
+	width: 360px;
+}
+
 .link-card-container {
 	display: flex;
 	justify-content: center;
@@ -111,8 +119,8 @@ a:hover {
 
 .link-card {
 	background-size: 85% 85%;
-	height: 15vw;
-	width: 15vw;
+	height: 16vw;
+	width: 16vw;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -188,6 +196,12 @@ p {
 	.about-copy h2 {
 		width: 170px;
 	}
+	.projects-copy h2{
+		width: 150px;
+	}
+	.links-copy h2 {
+		width: 250px;
+	}
 	.copy-container {
 		min-width: 65vw;
 		max-width: 65vw;
@@ -196,9 +210,9 @@ p {
 		font-size: 35px;
 	}
 	.link-card {
-			height: 15vw;
-	  	width: 15vw;
-	  }
+		height: 20vw;
+	  width: 20vw;
+	}
 }
 
 // Tablet+
@@ -303,5 +317,12 @@ p {
 		 margin-right: 15vw;
 		 margin-left: 15vw;
 	 }
+	}
+	.links-copy h2 {
+		display: none;
+	}
+	.link-card {
+		height: 45vw;
+		width: 45vw;
 	}
 }
