@@ -81,7 +81,7 @@ a:hover {
 }
 
 .copy-wrapper {
-	max-height: 60vh;
+	max-height: 75vh;
 	overflow-y: auto;
 }
 
@@ -111,18 +111,11 @@ a:hover {
 
 .link-card {
 	background-size: 85% 85%;
-	height: 11vw;
-	width: 11vw;
+	height: 15vw;
+	width: 15vw;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-@media (max-width: 710px) {
-  .link-card {
-		height: 15vw;
-  	width: 15vw;
-  }
 }
 
 .card-text {
@@ -183,6 +176,10 @@ h2 {
 	border-bottom: 1px solid white;
 }
 
+p {
+	font-size: 18px;
+}
+
 // Small desktop
 @media (max-width: 840px) and (min-width: #{$mobile-layout-pixels + 1}) {
 	h2 {
@@ -198,6 +195,10 @@ h2 {
 	.nav-conainter {
 		font-size: 35px;
 	}
+	.link-card {
+			height: 15vw;
+	  	width: 15vw;
+	  }
 }
 
 // Tablet+
@@ -231,6 +232,10 @@ h2 {
 
 // Mobile
 @media (max-width: $mobile-layout-pixels) {
+	.about-copy {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 	.about-copy h2 {
 		display: none;
 	}
@@ -242,6 +247,20 @@ h2 {
 	}
 	h1 {
 		font-size: 75px;
+	}
+	h2 {
+		font-size: 36px;
+    margin: auto;
+	}
+	.projects-copy {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.projects-copy h2 {
+		width: 175px;
+	}
+	.links-copy h2 {
+		width: 265px;
 	}
 	li {
 		display: inline;
