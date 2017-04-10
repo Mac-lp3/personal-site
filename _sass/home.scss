@@ -184,7 +184,7 @@ h2 {
 }
 
 // Small desktop
-@media (max-width: 840px) and (min-width: 601px) {
+@media (max-width: 840px) and (min-width: #{$mobile-layout-pixels + 1}) {
 	h2 {
 		font-size: 36px;
 	}
@@ -201,7 +201,7 @@ h2 {
 }
 
 // Tablet+
-@media (min-width: 450px) {
+@media (min-width: $mobile-layout-pixels) {
 	.nav-divider {
 		border-right: 2px solid $primary-text-color;
 		margin-top: $nav-divider-start-margin;
@@ -230,7 +230,7 @@ h2 {
 }
 
 // Mobile
-@media (max-width: 600px) {
+@media (max-width: $mobile-layout-pixels) {
 	.about-copy h2 {
 		display: none;
 	}
