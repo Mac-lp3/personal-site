@@ -9,4 +9,4 @@ make life easier).
 
 He is passionate about open source technology and tries to write software that improves the lives of others.
 
-Outside of work, he you can find him learning new programming languages and frameworks, at the gym, or on an adventure somewhere outside of the city.
+Outside of work, you can find him learning new programming languages and frameworks, at the gym, or on an adventure somewhere outside of the city.
