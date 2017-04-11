@@ -10,31 +10,31 @@ const mainWrapper = document.querySelectorAll(".wrapper")[0];
 
 function selectNav(elementId) {
 
-			copyWrapper.className = 'copy-wrapper slide-element-out';
-			navDivider.className = 'nav-divider close-divider';
-			mainWrapper.className = 'wrapper wrapper-' + elementId;
+  copyWrapper.className = 'copy-wrapper slide-element-out';
+  navDivider.className = 'nav-divider close-divider';
+  mainWrapper.className = 'wrapper wrapper-' + elementId;
 
-			setTimeout(() => {
+  setTimeout(() => {
 
-				// apply unselected color to each link
-				for (let i = 0; i < linkList.length; ++i) {
-					linkList[i].className = '';
-				}
+  	// apply unselected color to each link
+  	for (let i = 0; i < linkList.length; ++i) {
+  	  linkList[i].className = '';
+  	}
 
-				// apply selected color to selected link
-				document.getElementById(elementId + '-link').className = activeLink;
+  	// apply selected color to selected link
+  	document.getElementById(elementId + '-link').className = activeLink;
 
-				// hide each copy-text container
-				for (let i = 0; i < copyList.length; ++i) {
-					copyList[i].className = hiddenCopy;
-				}
+  	// hide each copy-text container
+  	for (let i = 0; i < copyList.length; ++i) {
+  		copyList[i].className = hiddenCopy;
+  	}
 
-				// show the selected container
-				document.getElementById(elementId + '-copy').className = elementId + '-copy';
+  	// show the selected container
+  	document.getElementById(elementId + '-copy').className = elementId + '-copy';
 
-				// apply slide-in animation & open divider
-				copyWrapper.className = 'copy-wrapper slide-element-in';
-				navDivider.className = 'nav-divider open-divider';
+  	// apply slide-in animation & open divider
+  	copyWrapper.className = 'copy-wrapper slide-element-in';
+  	navDivider.className = 'nav-divider open-divider';
 
 		}, 450);
 };
