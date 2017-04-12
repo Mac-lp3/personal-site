@@ -4,9 +4,9 @@ Michael graduated from Eastern Connecticut State University in 2012 with bachelo
 degrees in Mathematics and Computer Science.
 
 He has been a technologist of varying forms since 2011, from researcher to full stack developer.
-He has worked on three continents, primarily in healthcare IT, using technology to solve problems (or just
-make life easier).
 
-He is passionate about open source technology and tries to write software that improves the lives of others.
+He currently resides in Philadelphia, but spent two years working in Europe and Asia, where he used the latest technology to solve business problems (or just make the job a little easier).
 
-Outside of work, you can find him learning new programming languages and frameworks, at the gym, or on an adventure somewhere outside of the city.
+He is passionate about open source technology and tries to write software that is easy to use, maintain, and improves the lives of others.
+
+Outside of work, you can find him learning a programming language or framework, at the gym, working with a local tech group, or on vacation in a new country.
