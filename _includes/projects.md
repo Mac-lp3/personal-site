@@ -1,3 +1,6 @@
+## [This Page](https://github.com/Mac-lp3/personal-site)
+In case you wanted to take a look under the hood.
+
 ## [Turnover](https://github.com/Mac-lp3/turnover)
 A quick and easy visual capacity model. Built mostly to help understand Java threading.
 
