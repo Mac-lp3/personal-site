@@ -1,7 +1,7 @@
 ## About Me
 
 Michael graduated from Eastern Connecticut State University in 2012 with bachelor
-degrees in Mathematics and Computer Science.
+degrees in Mathematics and Computer Science. He is currently working on his MBA at Temple University in Philadelphia.
 
 He has been a technologist of varying forms since 2011, from researcher to full stack developer.
 
