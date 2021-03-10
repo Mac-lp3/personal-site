@@ -1,12 +1,14 @@
 ## About Me
 
 In 2012, I graduated from Eastern Connecticut State University with two bachelor
-degrees in Mathematics and Computer Science. I am currently working on my MBA at Temple University in Philadelphia.
+degrees in 1) Mathematics and 2) Computer Science. In 2021, I completed my MBA from Temple University in Philadelphia.
 
-I have been a professional technologist since 2011, from a memeber of a graduate research team to full stack developer. At the moment, I manage two teams of engineers and data scientists, with one searching for insights to curve the opioid epedemic.
+I have been a professional technologist since 2011, holding roles from researcher to full stack developer.
+Most recently, I managed two agile teams in the D&A department, one searching for insights to curve the opioid epidemic.
 
-I am based out of Philadelphia, but spent two years working in Europe and Asia, where I used technology to solve business problems or just make everyone's job a bit easier.
+At time of writing, I am a based out of New Zealand, but have worked in the USA, UK, and Hong Kong. 
 
-I'm passionate about open source technology and like to write software that is easy to use, read, maintain, and makes an impact.
+I'm passionate about applying technology when and where it makes an impact. I try to write code that is easy to use, read, and maintain.
+I never feel like I know enough, so I am always experimenting/tinkering/playing with something.
 
-Outside of work, you can find me in a cafe learning a programming language or framework, at the gym, or on vacation chasing new passport stamps.
+Away from the laptop, I am probably cooking, making a complicated tiki cocktail, or (if I publish this, I need to commit) at the gym. 
