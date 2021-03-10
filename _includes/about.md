@@ -4,7 +4,7 @@ In 2012, I graduated from Eastern Connecticut State University with two bachelor
 degrees in 1) Mathematics and 2) Computer Science. In 2021, I completed my MBA from Temple University in Philadelphia.
 
 I have been a professional technologist since 2011, holding roles from researcher to full stack developer.
-Most recently, I managed two agile teams in the D&A department, one searching for insights to curve the opioid epidemic.
+Most recently, I managed two agile teams in the D&A department, with one searching for insights to curve the opioid epidemic.
 
 At time of writing, I am a based out of New Zealand, but have worked in the USA, UK, and Hong Kong. 
 
